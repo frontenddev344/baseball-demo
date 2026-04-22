@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="header-content d-flex align-items-center justify-content-between">
-                       <div class="logo">
+                        <div class="logo">
                             <a href="./"><img src="assets/images/logo.png" alt="logo"></a>
                         </div>
                         <div class="menu-list" id="mySidenavs">
@@ -81,11 +81,12 @@
         </section>
         <div class="authentication_popup_sec " style="background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);">
             <div class="container">
-                <div class="authentication_content">
+                <div class="authentication_content" data-aos="fade-up">
                     <p>Have questions about signed MLB memorabilia, authentication, shipping, or a specific item? Our
                         team is here to assist you at every stage of your collecting journey.
                     </p>
-                    <p>At Sportxst, we prioritize transparency and trust. Whether you're just getting started or
+                    <p data-aos="fade-up">
+                        At Sportxst, we prioritize transparency and trust. Whether you're just getting started or
                         expanding a long-term collection, we’re committed to providing clear guidance and dependable
                         support whenever you need it.
                     </p>
@@ -96,7 +97,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="contact_left">
+                        <div class="contact_left" data-aos="fade-up">
                             <h2>How to Reach Us</h2>
                             <div class="contact_grp">
                                 <h3><strong>Email:</strong></h3>
@@ -128,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-up">
                         <div class="contact_right">
                             <h2>Contact Form</h2>
                             <p>Fill out the form below and we will respond shortly.</p>
@@ -283,8 +284,15 @@
 
 
     <!-- scripts -->
+     <script src="assets/js/aos.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/index.js"></script>
+    
+     <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
 </body>
 
 </html>
