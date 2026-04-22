@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jerseys</title>
+    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -17,7 +19,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="header-content d-flex align-items-center justify-content-between">
-                       <div class="logo">
+                        <div class="logo">
                             <a href="./"><img src="assets/images/logo.png" alt="logo"></a>
                         </div>
                         <div class="menu-list" id="mySidenavs">
@@ -71,7 +73,7 @@
         <section class="sub_banner" style="background-image: url('assets/images/Jerseys-bnr.png');">
             <div class="container">
                 <div class="banner_content">
-                    <h1 class="text-white text-center">
+                    <h1 class="text-white text-center" data-aos="fade-up">
                         Jerseys
                     </h1>
                 </div>
@@ -80,12 +82,12 @@
         <section class="about_sec">
             <div class="container">
                 <div class="content-wrapper">
-                    <div class="img-side-about">
+                    <div class="img-side-about" data-aos="fade-right">
                         <div class="about_image">
                             <img src="assets/images/Ichiro.jpg" alt="Rodriguez" class="img-fluid">
                         </div>
                     </div>
-                    <div class="about_side_content">
+                    <div class="about_side_content" data-aos="fade-left">
                         <div class="about_content">
                             <h2> Authentic baseball jerseys signed by the game’s biggest names</h2>
                             <p>Explore a curated selection of genuine, autographed MLB jerseys from top players across
@@ -106,7 +108,7 @@
                 <h2 class="text-center text-white mb-5">Featured <span style="color: #00aaff;">Legends</span></h2>
                 <!-- Featured legendss content will go here -->
                 <div class="legends-grid">
-                    <div class="legend-items">
+                    <div class="legend-items" data-aos="fade-up">
                         <div class="legend-img">
                             <img src="assets/images/Babe-Ruth.jpg" alt="ruth">
                         </div>
@@ -145,7 +147,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="legend-items">
+                    <div class="legend-items" data-aos="fade-up">
                         <div class="legend-img">
                             <img src="assets/images/derek-Jeter.jpg" alt="jeter">
                         </div>
@@ -184,7 +186,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="legend-items">
+                    <div class="legend-items" data-aos="fade-up">
                         <div class="legend-img">
                             <img src="assets/images/ken-griffey.jpg" alt="griffey">
                         </div>
@@ -223,7 +225,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="legend-items">
+                    <div class="legend-items" data-aos="fade-up">
                         <div class="legend-img">
                             <img src="assets/images/mike-trout.jpg" alt="trout">
                         </div>
@@ -261,7 +263,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="legend-items">
+                    <div class="legend-items" data-aos="fade-up">
                         <div class="legend-img">
                             <img src="assets/images/Jackie-Robinson.jpg" alt="Jackie-Robinson">
                         </div>
@@ -301,7 +303,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="legend-items">
+                    <div class="legend-items" data-aos="fade-up">
                         <div class="legend-img">
                             <img src="assets/images/nolan-ryan.jpg" alt="nolan-ryan">
                         </div>
@@ -341,7 +343,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="legend-items">
+                    <div class="legend-items" data-aos="fade-up">
                         <div class="legend-img">
                             <img src="assets/images/albert-pujols.jpg" alt="albert-pujols">
                         </div>
@@ -382,7 +384,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="legend-items">
+                    <div class="legend-items" data-aos="fade-up">
                         <div class="legend-img">
                             <img src="assets/images/shohei-ohtani.jpg" alt="shohei-ohtani">
                         </div>
@@ -428,7 +430,7 @@
         <section class="jersey_cards">
             <div class="container">
                 <div class="jersey_page_cards">
-                    <div class="jersey_page_card">
+                    <div class="jersey_page_card" data-aos="fade-up">
                         <div class="jersey_page_card-img">
                             <img src="assets/images/Hank-Aaron.png" alt="Jersey 1">
                         </div>
@@ -445,7 +447,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="jersey_page_card">
+                    <div class="jersey_page_card" data-aos="fade-up">
                         <div class="jersey_page_card-img">
                             <img src="assets/images/authentic.png" alt="Jersey 1">
                         </div>
@@ -461,7 +463,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="jersey_page_card">
+                    <div class="jersey_page_card" data-aos="fade-up">
                         <div class="jersey_page_card-img">
                             <img src="assets/images/Mookie-Betts.jpg" alt="Jersey 1">
                         </div>
@@ -639,6 +641,13 @@
     <!-- scripts -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/index.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
 </body>
 
 </html>
