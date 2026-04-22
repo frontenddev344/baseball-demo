@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Authentication</title>
+    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -17,7 +19,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="header-content d-flex align-items-center justify-content-between">
-                       <div class="logo">
+                        <div class="logo">
                             <a href="./"><img src="assets/images/logo.png" alt="logo"></a>
                         </div>
                         <div class="menu-list" id="mySidenavs">
@@ -34,7 +36,7 @@
                                 <li>
                                     <a href="jerseys">Jerseys</a>
                                 </li>
-                                <li >
+                                <li>
                                     <a href="about-us">About us</a>
                                 </li>
                                 <li class="active">
@@ -68,17 +70,19 @@
 
     <!-- main -->
     <main>
-        <section class="sub_banner" style="background-image: url('assets/images/authentication-bnr.png');">
+        <section class="sub_banner" style="background-image: url('assets/images/auth-bnr.png');">
             <div class="container">
                 <div class="banner_content">
-                    <h1 class="text-white text-center">
+                    <h1 class="text-white text-center" data-aos="fade-up">
                         Authentication
                     </h1>
-                    <p>Trust is the foundation behind every collectible we offer. At Sportxst, each signed MLB item is
+                    <p data-aos="fade-up">
+                        Trust is the foundation behind every collectible we offer. At Sportxst, each signed MLB item is
                         sourced through controlled signing sessions and verified using strict authentication
                         standards—so you know exactly what you’re getting.
                     </p>
-                    <p>When you invest in baseball memorabilia, authenticity isn’t optional—it’s essential. That’s why
+                    <p data-aos="fade-up">When you invest in baseball memorabilia, authenticity isn’t optional—it’s
+                        essential. That’s why
                         every piece is documented, traceable, and backed by reliable verification.
                     </p>
                 </div>
@@ -87,11 +91,13 @@
         <section class="authentication_popup_sec ">
             <div class="container">
                 <div class="authentication_content">
-                    <h2>100% Genuine, Hand-Signed MLB Collectibles</h2>
-                    <p>Every item in our collection features an authentic signature from the player—no reproductions, no
+                    <h2 data-aos="fade-up">100% Genuine, Hand-Signed MLB Collectibles</h2>
+                    <p data-aos="fade-up">Every item in our collection features an authentic signature from the
+                        player—no reproductions, no
                         mass-produced prints, and no shortcuts. Each collectible represents a real moment in baseball,
                         backed by proper verification and clear documentation.</p>
-                    <p>We focus on quality, traceability, and authenticity—so every piece you own carries true meaning,
+                    <p data-aos="fade-up">We focus on quality, traceability, and authenticity—so every piece you own
+                        carries true meaning,
                         history, and long-term value.
                     </p>
                 </div>
@@ -103,7 +109,7 @@
 
                     <!-- Image -->
                     <div class="auth-image aos-init" data-aos="fade-up">
-                        <img src="assets/images/hero-banner.jpg" alt="Certificate of Authenticity">
+                        <img src="assets/images/third-party.png" alt="Certificate of Authenticity">
                     </div>
 
                     <!-- Content -->
@@ -165,9 +171,9 @@
         <div class="authentication_cards_sec ">
             <div class="container">
                 <div class="jersey_page_cards">
-                    <div class="jersey_page_card">
+                    <div class="jersey_page_card" data-aos="fade-up">
                         <div class="jersey_page_card-img">
-                            <img src="assets/images/jersey1.jpg" alt="Jersey 1">
+                            <img src="assets/images/matters.png" alt="Jersey 1">
                         </div>
                         <div class="jersey_page_card-content">
                             <h3>Why Authentication Matters
@@ -184,9 +190,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="jersey_page_card">
+                    <div class="jersey_page_card" data-aos="fade-up">
                         <div class="jersey_page_card-img">
-                            <img src="assets/images/jersey1.jpg" alt="Jersey 1">
+                            <img src="assets/images/collectors.jpg" alt="Jersey 1">
                         </div>
                         <div class="jersey_page_card-content">
                             <h3>Our Commitment to Collectors
@@ -198,9 +204,9 @@
                                 on—today and for years to come. </p>
                         </div>
                     </div>
-                    <div class="jersey_page_card">
+                    <div class="jersey_page_card" data-aos="fade-up">
                         <div class="jersey_page_card-img">
-                            <img src="assets/images/jersey1.jpg" alt="Jersey 1">
+                            <img src="assets/images/card-2.png" alt="Jersey 1">
                         </div>
                         <div class="jersey_page_card-content">
                             <h3>Buy with Confidence </h3>
@@ -331,6 +337,13 @@
     <!-- scripts -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/index.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+        }); 
+    </script>
 </body>
 
 </html>
